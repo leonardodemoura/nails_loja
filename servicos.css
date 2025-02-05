@@ -1,44 +1,45 @@
-    /* Reset geral */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+ /* Reset geral */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    /* Corpo */
-    body {
-        font-family: 'Poppins', sans-serif;
-        background-color: #F9F2F6; /* Fundo suave */
-        color: #333;
-    }
+        /* Corpo */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #F9F2F6; /* Fundo suave */
+            color: #333;
+        }
 
-    /* Header */
-    header {
-        position: relative;
-        background-color: #F08AA2;
-        color: white;
-        padding: 60px 20px;
-        text-align: center;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    }
-    header::after {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        background-image: url('imagens/banner_maria.jpg'); /* Customize sua imagem */
-        background-size: cover;
-        background-position: center;
-        opacity: 0.5;
-    }
-    header h1 {
-        font-size: 4em;
-        font-family: 'Lora', serif;
-        z-index: 1;
-        animation: fadeInHeader 1.5s ease-out;
-    }
+        /* Header */
+        header {
+            position: relative;
+            background-color: #F08AA2;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 100%;
+            background-image: url('imagens/banner_maria.jpg'); /* Customize sua imagem */
+            background-size: cover;
+            background-position: center;
+            opacity: 0.5;
+        }
+        header h1 {
+            font-size: 4em;
+            font-family: 'Lora', serif;
+            z-index: 1;
+            animation: fadeInHeader 1.5s ease-out;
+        }
+
     /* Navegação */
     nav {
         display: flex;
@@ -178,6 +179,38 @@
 .service-link {
     display: block;
 }
+
+/* Estilo para os ícones sociais */
+.service-social-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
+    background-color: #F08AA2; /* Cor do fundo do botão */
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #F5A8C4; /* Cor de hover */
+    transform: scale(1.05);
+}
+
+.social-icon i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+    font-size: 1.4em;  /* Tamanho dos ícones */
+}
+
 
 /* Galeria de Inspiração */
 .inspiration-gallery {

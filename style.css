@@ -121,6 +121,38 @@
             font-size: 1.5em;
         }
 
+        /* Estilo para os ícones sociais */
+        .service-social-links {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .social-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            background-color: #F08AA2;
+            color: white;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-icon:hover {
+            background-color: #F5A8C4;
+            transform: scale(1.05);
+        }
+
+        .social-icon i {
+            margin-right: 8px; /* Espaço entre o ícone e o texto */
+            font-size: 1.4em;
+        }
+
+
 
         /* Sobre a Profissional */
         .img_profissional{
