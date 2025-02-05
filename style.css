@@ -65,7 +65,7 @@
 
         /* Efeito de Scroll suave */
         section {
-            padding: 80px 20px;
+            padding: 40px 20px;
             text-align: center;
             transition: all 0.3s ease;
         }
