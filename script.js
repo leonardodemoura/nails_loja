@@ -1,3 +1,10 @@
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const navLinks = document.getElementById('nav-links');
+
+hamburgerMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
 let currentIndex = 0;
 const carouselContainer = document.querySelector('.carousel-images');
 const images = document.querySelectorAll('.carousel-images img');
